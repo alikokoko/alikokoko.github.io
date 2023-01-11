@@ -11,60 +11,70 @@
 
 <body style="background-color: gray;">
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">ASPA GROUP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    
+  <div class="container">
+  <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <h4 id="scrollspyHeading1">   <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Sozlesme 1
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Ev</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fatura</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/pricing" target="_blank">Pirising</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Bağlı</a>
-              </li>
-            </ul>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>Bu saytı bəyəndinsə lütfən oy ver <input type="checkbox" name="" id=""></strong> 
           </div>
         </div>
-        
-      </nav>
-      
-      <h1>Button novleri</h1>
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-primary">Right</button>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="img2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">bu son derece yumuşaq ayaqqabının qiymeti 500 azn almaq isteyen kontak home ye gelsin.</p>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Sozlesme 2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>Orginal sayt çalıntı deil</strong>
+          </div>
         </div>
       </div>
-      <h1>son olaraq bizim grupun seviyeleri</h1>
-    <h1>ASPA Group <span class="badge bg-secondary">Ali</span></h1>
-    <h2>ASPA Group <span class="badge bg-secondary">Nuro</span></h2>
-    <h3>ASPA Group <span class="badge bg-secondary">Cavo</span></h3>
-    <h4>ASPA Group <span class="badge bg-secondary">Maga</span></h4>
-    <h5>ASPA Group <span class="badge bg-secondary">Maho</span></h5>
-    <h6>ASPA Group <span class="badge bg-secondary">Ramo</span></h6>
-    <button type="button" class="btn btn-primary position-relative">
-        Inbox
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-          99+
-          <span class="visually-hidden">unread messages</span>
-        </span>
-      </button>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            sozleseme 3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>Bu sayt aspa terefinden yaradilmisdir</strong>
+          </div>
+        </div>
+      </div>
 
-      <div id="carouselExampleCaptions" class="carousel slide">
+
+    </div></h4>
+    <h4 id="scrollspyHeading2"> <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -101,7 +111,21 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div></h4> 
+    
+  </div>
+</div>
+
+
+   
+
+
+   
+      
+
+
+
+     
       <div style="text-align: center;">Desinged by &copy; Ali Ahmadzada</div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
       
