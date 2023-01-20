@@ -1,2 +1,0 @@
-# alikokoko.github.io
-Aspako
