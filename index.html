@@ -26,48 +26,57 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar  bg-dark navbar-expand-lg body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Navbar</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">20 yanvar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">20 yanvar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">20 yanvar şəhidləri</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="haqqinda.html">Haqqinda</a>
+                <a class="nav-link" href="haqqinda.html">Haqqında</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="zəmin.html">Zəmin</a>
               </li>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!-- carusel -->
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="003.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="38.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="1579504912_003.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1579504912_003.jpg" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item">
+            <img src="003.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="38.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
            <!-- cards -->
           <div class="container">
-          <div class="card mx-auto  my-5" style="width: 15rem;">
+          <div class="card mx-auto  my-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
             <img src="Sabir_Abbasov_20_January.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -75,7 +84,7 @@
             </div>
           </div>
          
-          <div class="card mx-auto my-5" style="width: 15rem;">
+          <div class="card mx-auto my-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
             <img src="Fəridə_Abbasova.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -85,7 +94,7 @@
             </div>
           </div>
     
-          <div class="card mx-auto  my-5"  style="width: 15rem;">
+          <div class="card mx-auto  my-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded"  style="width: 17rem;">
             <img src="Sabir_Abbasov_20_January.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -95,7 +104,7 @@
             </div>
           </div>
     
-          <div class="card mx-auto  my-5" style="width: 15rem;">
+          <div class="card mx-auto  my-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
             <img src="200px-Əyyub_Abdullayev.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
